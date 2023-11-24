@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import './Sidebar.css';
 import Navbar from './components/Navbar';
 import ProductList from './components/ProductList'
 import Footer from './components/Footer';
 import React, { useState } from 'react';
+import Sidebar from './components/Sidebar';
 
 
 function App() {
@@ -37,6 +39,7 @@ function App() {
   return (
    <>
    <Navbar/>
+   <Sidebar/>
    <main className='container mt-5'>
     <ProductList productList={productList} incrementQuantity={incrementQuantity} decrementQuantity={decrementQuantity} />
    </main>

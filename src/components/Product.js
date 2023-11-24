@@ -1,13 +1,10 @@
 import React from "react";
 
 export default function Product(props) {
-  
 
-     
   return (
     <div className="row" >
       <div className="col-5">
-        
         <h2>
           {props.product.name}{"  "}
           <span class="badge bg-secondary">₹ {props.product.price}</span>
@@ -21,7 +18,7 @@ export default function Product(props) {
       </div>
       
       <div className="col-2">
-      ₹ {props.product.quantity * props.product.price}
+          ₹ {props.product.quantity * props.product.price}
       </div>
           
 

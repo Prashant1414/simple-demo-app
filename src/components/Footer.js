@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render() {
     return (
         <div className="footer">
-        <footer className="text-white text-center text-lg-start" style={{backgroundColor: '#23242a'}}>
+        <footer className="text-white text-center text-lg-start" >
           {/* Grid container */}
           <div className="container p-4">
             {/*Grid row*/}

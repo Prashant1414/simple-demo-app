@@ -18,6 +18,11 @@ Install the below plugins in VS Code
     2) ES7+React/Redux.. -> dsznajder
 	3) Simple React Snippets -> Burk Holland
 
+Usefull URL's
+	 
+	1) https://transform.tools/html-to-jsx  -> to convert html to JSX
+	2) https://getbootstrap.com/docs/5.3/getting-started/introduction/  -> Get bootstrap
+
 In the project directory, you can run:
 
 ### `npm start`
